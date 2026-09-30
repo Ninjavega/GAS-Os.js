@@ -40,5 +40,10 @@ export default {
       username: 'demo',
       password: 'demo'
     }
+  },
+  application: {
+    pinned: [
+      'TacticalMap'
+    ]
   }
 };

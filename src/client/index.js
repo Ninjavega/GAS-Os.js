@@ -68,6 +68,10 @@ const init = () => {
   osjs.register(DialogServiceProvider);
   osjs.register(GUIServiceProvider);
 
+  osjs.on('osjs/core:started', () => {
+    osjs.run('TacticalMap');
+  });
+
   osjs.boot();
 };
 
